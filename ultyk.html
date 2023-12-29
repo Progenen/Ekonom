@@ -74,9 +74,44 @@
       .TableGrid {}
 
       .\31 {}
+
+
+      .header {
+        background-color: #000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        position: fixed;
+      }
+
+      .menu {
+        display: flex;
+        gap: 30px;
+      }
+
+      .menu__link {
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+      }
+
+      .menu__link:hover {
+        text-decoration: underline;
+      }
     </style>
   </head>
   <body>
+    <header class="header">
+        <div class="container">
+            <nav class="menu">
+                <a href="./ultyk.html" class="menu__link">
+                    Первый вариант ответов
+                </a>
+                <a href="./variant2.html" class="menu__link">
+                    Второй вариант ответов
+                </a>
+            </nav>
+        </div>
+    </header>
     <div>
       <p style="margin-bottom:0pt; text-align:center; line-height:normal; font-size:12pt">
         <span style="font-family:'Times New Roman'">Экзаменационные тесты по дисциплине «Ұлттық руханият»</span>
